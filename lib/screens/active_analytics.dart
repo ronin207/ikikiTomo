@@ -81,7 +81,7 @@ class BarChartSample6 extends StatelessWidget {
         builder: (context, constraints) {
           return Container(
             decoration: const BoxDecoration(
-              color: Colors.white, // Set the background color here
+              color: Color(0xFFF4F1E6), // Set the background color here
             ),
             child: Column(
               // Expand the column to the full height of the screen

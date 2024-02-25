@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:myapp/screens/active_analytics.dart';
+import 'package:myapp/screens/chat_navigator.dart';
+import 'package:myapp/screens/home_navigator.dart';
 import 'package:myapp/screens/login_navigator.dart';
 
 import 'package:firebase_core/firebase_core.dart';
@@ -25,7 +27,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: appTheme1,
-      home: const BarChartSample6(),
+      // home: const BarChartSample6(),
+      home: LoginPage(),
     );
   }
 }
